@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +14,11 @@
 
 <body>
     <h1>Cadastrar Usuàrio</h1>
+    <?php
+    if(isset($_SESSION['msg']))
+        echo $_SESSION['msg'];
+        unset($_SESSION['msg']);
+    ?>
     <form method="POST" action="processa.php">
         <label for="">Nome: </label>
         <input type="text" name="nome" placeholder="Digite o nome completo"><br><br>
