@@ -14,3 +14,7 @@ print '<p>2º Concatenação.</p>';
 print ' ';
 
 var_dump('nome ' . 'sobrenome');
+
+var_dump ('2' . '4');
+
+var_dump ('4' + 5); 
