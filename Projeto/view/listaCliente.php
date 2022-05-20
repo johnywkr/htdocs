@@ -17,7 +17,7 @@
     $clientes = $clienteDAO->getListaCliente();
 
     ?>
-    <a href="../index.html">Inicio</a>
+    <a href="../index.php">Inicio</a>
 
     <table border="1">
         <tr>
