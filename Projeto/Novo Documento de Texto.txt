@@ -16,8 +16,20 @@
 
 
 
-  action=" "
-  é pra onde os dados serao enviados.
+  action="local/arquivo"
+  -> é pra onde os dados serao enviados.
+
+
+  METODO POST
+  O POST, ao contrário do GET, envia os parâmetros no corpo da requisição HTTP. Escondendo eles da URI:
+
+  Então isso significa que se utilizarmos o POST protegemos os dados submetidos pelo formulário, já que eles não aparecem na URI?
+
+  Não exatamente. A única coisa que o POST faz é enviar os parâmetros no corpo da requisição. Se inspecionarmos a requisição, conseguimos acesso a eles:
+
+  Se quisermos proteger, de fato, nossa aplicação, precisamos utilizar a "versão segura" do HTTP, o HTTPS. Com ela, conseguimos criptografar os dados enviados.
+
+
 
 
   1º Foi criado o formulario que vai ser mandado la pro controller pelo metodo post.

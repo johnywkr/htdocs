@@ -21,9 +21,10 @@ include 'login/validaLogin.php';
 
 
   <nav>
-    <a href="view/formCadastro.php"><button class="myButton">Cadastro de Clientes</button></a>
-    <a href="view/listaCliente.php"><button class="myButton">Lista de Clientes</button></a>
-    <a href="controller/logoffController.php">Logout</a>
+    <a class="myButton" href="view/formCadastro.php">Cadastro de Clientes</a>
+    <a class="myButton" href="view/listaCliente.php">Lista de Clientes</a>
+    <a class="myButton" href="view/CadastroFuncionario.php">Cadastro de Funcionarios</a>
+    <a class="myButton" href="controller/logoffController.php">Logout</a>
   </nav>
 </body>
 
