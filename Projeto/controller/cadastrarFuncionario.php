@@ -7,7 +7,7 @@ require_once '../dao/funcionarioDAO.php';
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $usuario = $_POST['usuario'];
-    $senha = md5($_POST['senha']);
+    $senha = ($_POST['senha']);
     $perfil = $_POST['perfil'];
     $sexo = $_POST['sexo'];
     $datanasc = date($_POST['datanasc']);
@@ -32,3 +32,4 @@ require_once '../dao/funcionarioDAO.php';
     }else{
         echo "nao deu bom";
     }
+?>

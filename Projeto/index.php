@@ -16,16 +16,21 @@ include 'login/validaLogin.php';
   <?php
 
   echo "Perfil: ", $_SESSION['perfil'];
+  echo "Usuario: ", $_SESSION['usuario'];
 
   ?>
 
 
-  <nav>
-    <a class="myButton" href="view/formCadastro.php">Cadastro de Clientes</a>
-    <a class="myButton" href="view/listaCliente.php">Lista de Clientes</a>
-    <a class="myButton" href="view/CadastroFuncionario.php">Cadastro de Funcionarios</a>
+  <div>
+    <?php
+
+    include 'view/menu.php';
+
+    ?>
     <a class="myButton" href="controller/logoffController.php">Logout</a>
-  </nav>
+  </div>
+
+
 </body>
 
 </html>
