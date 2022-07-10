@@ -12,7 +12,7 @@ include 'login/validaLogin.php';
   <link rel="stylesheet" href="css/cssLinks.css" />
 </head>
 
-<body>
+<body style="background-color: blueviolet;">
   <?php
 
   echo "Perfil: ", $_SESSION['perfil'];

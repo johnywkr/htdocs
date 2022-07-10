@@ -1,0 +1,19 @@
+Instalação do wp , baixar e jogar na pasta htdocs , habilitar o servidor xampp.
+entre no link http://localhost/phpmyadmincriar para crir o banco de dados e depois colocar nas
+configuração do wordpress pelo navegador. colocar o nome do banco de dados criado , e anotar o user e senha
+
+---ADM---
+
+user: johne
+senha: b#o4$XWnRo#FA#ar8*
+
+http://localhost/site-wordpress/site/
+
+link de  login
+http://localhost/site-wordpress/site/wp-admin/
+
+
+site01
+
+user : johne
+senha: wpsite01newsolution
